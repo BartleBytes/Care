@@ -1,0 +1,33 @@
+.welcome-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    font-family:'Bodoni Moda';
+    color:#174A26;
+  }
+  
+  .photo-column,
+  .text-column {
+    flex: 1;
+  }
+  
+  .photo-flipper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .photo-flipper button {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .photo-flipper img {
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+  }
+  

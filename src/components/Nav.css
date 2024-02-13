@@ -1,0 +1,49 @@
+.nav {
+    top: -10px;
+    width: 100%;
+    background-color:   #174A26; /* Background color */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  .nav li {
+    float: left; /* Arrange items horizontally */
+    text-decoration: none;
+    list-style-type:none;
+  }
+  
+  .nav li a {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    display: block; /* Make links block-level for styling */
+    color:white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 14px 60px; /* Padding around text */
+    text-decoration: none; /* Remove underline from links */
+
+    transition: background-color o.3s;
+  }
+
+  .nav li a:hover {
+    background-color: rgb(117, 212, 164); /* Background color on hover */
+    color: black;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar li {
+        float: none;
+        display: block;
+    }
+  }
+
+  

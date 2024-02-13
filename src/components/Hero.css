@@ -1,0 +1,42 @@
+
+.hero {
+    align-items: center;
+    background-image:url(https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=noah-buscher-x8ZStukS2PM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    padding: 50px; /* Adjust padding as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-family: 'Bodoni Moda';
+    font-size: 4rem; /* Adjust font size as needed */
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .hero p {
+    font-family:'Bodoni Moda';
+    font-size: 1rem; /* Adjust font size as needed */
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .social-media-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-media-icons a i {
+    display: flex;
+    align-items:flex-end;
+    font-size: 30px;
+  }

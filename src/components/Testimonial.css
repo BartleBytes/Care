@@ -1,0 +1,26 @@
+.testimonial {
+    text-align: center;
+    margin-bottom: 40px;
+    color:#174A26;
+    font-family:'Bodoni Moda';
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  
+  .testimonial-content {
+    
+    padding: 20px;
+    color:#174A26;
+  }
+  
+  .testimonial-name {
+    font-style: italic;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align:center;
+    font-family:'Bodoni Moda';
+    color:#174A26;
+
+  }
+  
