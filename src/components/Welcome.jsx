@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Welcome.css';
 
 const Welcome = () => {
-  const [photos, setPhotos] = useState([
+  const [photos, ] = useState([
     'https://via.placeholder.com/300',
     'https://via.placeholder.com/300',
     'https://via.placeholder.com/300'
